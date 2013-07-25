@@ -1,6 +1,6 @@
 
 ( function PromiseLibrary() {
-    //"use strict";
+    "use strict";
 
     window.util = window.util || {};       //defining NameSpace
     window.util.Promise = Promise;
