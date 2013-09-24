@@ -13,8 +13,8 @@
         constructor.parentClass = function () { };
 
         function Class() {
-            constructor.parentClass.call( this, arguments );
-            constructor.call( this, arguments );
+            constructor.parentClass.apply( this, arguments );
+            constructor.apply( this, arguments );
             for ( var i in instanceAttributes ) {
                 this[i] = instanceAttributes[i];
             }            
