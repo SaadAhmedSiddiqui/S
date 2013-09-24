@@ -56,6 +56,9 @@
 
 } )();
 
+( function testing() {
+
+} )();
 //( function testing() {
 //    var b = new window.util.Promise( function ( success, failure ) {
 //        setTimeout( function () {
